@@ -54,10 +54,22 @@
 			border-radius: 5px;
 			padding: 15px 25px 15px 25px;
 			border: 0;
-			margin: -20px 0 20px 0;
+			margin: 0px 0 20px 0;
+			cursor: pointer;
 		}
-		ul{
-			margin: -20px 0 0 0;
+		button:hover{
+			background-color: #16c9d9;
+		}
+		ul.nav{
+			margin: 0 0 40px -40px;
+			display: flex;
+		}
+		ul.stuff{
+			margin: -20px 0 0 -40px;
+		}
+		li{
+			list-style: none;
+			margin-right: 20px;
 		}
 		.logo_container{
 			display: flex;
@@ -93,6 +105,14 @@
 	<h1>Spectrum Dark Mode</h1>
 </div>
 	
+<nav>
+	<ul class="nav">
+		<li><a href="https://youtube.com/fatcatplays" target="_blank"><img src="../icons/youtube.png" width="40" height="40" /></a></li>
+		<li><a href="https://twitter.com/fatcatplays" target="_blank"><img src="../icons/twitter.png" width="40" height="40" /></a></li>
+		<li><a href="https://www.fwkart.de/star-citizen-kostenlos-testen-referral-code/" target="_blank"><img src="../icons/shop.png" width="40" height="40" /></a></li>
+	</ul>
+</nav>
+	
 <h2>Description</h2>
 	<p>This extension changes the appearance of the Spectrum website. You must have Dark Mode enabled. It also makes changes to some RSI web pages. In later updates, I'd like to give you a few options at this point.<br><br>
 		Stay tuned!
@@ -104,7 +124,7 @@
 	
 <h3>More Stuff</h3>
 	<p class="noborder">Other useful Star Citizen extensions:
-	<ul>
+	<ul class="stuff">
 	<li><a href="https://github.com/dolkensp/HangarXPLOR" target="_blank">Star Citizen - HangarXPLOR</a> (Extension)</li>
 	<li><a href="https://github.com/sophie-kuehn/sc-fleet-info" target="_blank">Star Citizen - Fleet Info</a> (Github)</li>
 	</ul>
