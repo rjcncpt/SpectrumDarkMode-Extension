@@ -5,6 +5,11 @@ For new Star Citizen player: https://www.fwkart.de/star-citizen-kostenlos-testen
 
 ---
 
+### Installation
+Download the zip file from the releases and unzip it to a folder on your hard drive. Open your Google Chrome browser and navigate to Extensions (chrome://extensions/). Click on "Load unzipped extension" navigate to the unzipped folder and select "Choose folder". Done!
+
+---
+
 ### Discussions and feedback:
 https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
 
