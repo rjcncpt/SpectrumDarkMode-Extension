@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
-@namespace      https://github.com/rjcncpt/starcitizen-better-spectrum-look
-@version        v5 c.1.0.5.1
+@namespace      https://github.com/rjcncpt/SpectrumDarkMode
+@version        v5 c.1.0.5.2
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -13,7 +13,7 @@
 .theme-dark#app{
     width: 75%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
 }
-@media only screen and (max-width: 1700px){
+@media only screen and (max-width: 1800px){
 .theme-dark#app{
     width: 100%;    /* Recommended: 100% *//* Change the percentage value for monitors with a resolution of max 1700 pixels. Default is 100% */
 }
@@ -272,9 +272,13 @@ div.button-group-selector button,
     background-color: #2a456a!important;
     border-color: #4c80b7!important;
 }
-.theme-dark .reaction.active,
-.theme-dark button.vote.active{
+.theme-dark .reaction{
     border-color: #4c80b7;
+    background-color: #152438;
+}
+.theme-dark .reaction.active{
+    border-color: #4c80b7;
+    background-color: #243249;
 }
 .theme-dark button.vote .count{
     font-weight: 600;
@@ -397,6 +401,15 @@ button.vote.vertical,
 }
 /* avatars end */
 
+.message-item>.content>.bottom .body{
+	font-size: 1em;
+    line-height: 1.5em;
+}
+
+.public-DraftEditor-content blockquote, blockquote {
+    margin: 10px 0 -10px 10px;
+}
+
 #app #app-header a.logo {
     position: relative!important;
 }
@@ -456,8 +469,10 @@ button.vote.vertical,
     padding-top: 13px;
 }
 
-.theme-dark .message-item > .content > .top .member-name span.displayname{
-    font-weight: 600;
+.theme-dark .message-item > .content > .top .member-name span.displayname,
+.message-item>.content>.top .member-name span.displayname{
+    font-weight: 500;
+	font-size: 1.1em;
 }
 #notifications .notifications-main .notifications-list .notifications-item .item-details .item-timestamp {
     margin-top: 10px;
@@ -655,11 +670,51 @@ button.vote.vertical,
 
 /* Issue Council */
 .c-header {position: fixed;top: 35px;}
+/* Issue Council end */
 
 /* Pladge Store */
 .ReactVirtualized__Grid.ReactVirtualized__List{height: 62vh!important;}
 .lobby-member-presences > .members-list .ReactVirtualized__Grid.ReactVirtualized__List{height: 1182px!important;}
 .RSIStoreTheme .AppModal .AppModal-content {height: auto;}
+/* Pladge Store end */
+
+/* Devtracker */
+.devtracker-list .devpost .devpost-wrapper .topic,
+.devtracker-list .devpost .devpost-wrapper .details{font: .8em/20px "Arial";color: #ddd;}
+.devtracker-list .devpost .devpost-wrapper .topic .thread{color: #95c1e1;}
+.devtracker-list .devpost .devpost-wrapper .topic .category {color: #95c1e1;font-weight: bold;}
+.devtracker-list .devpost .devpost-wrapper .info .poster{padding-top: 5px;}
+.devtracker-list .devpost .devpost-wrapper .topic .category::after {
+    content: '|';
+    padding-left: 9px;
+    padding-right: 5px;
+}
+.devtracker-list .devpost .devpost-wrapper .info .poster .nickname {
+    color: rgb(222, 195, 66);
+    font-size: 1em;
+    font-weight: bold;
+}
+.devtracker-list .devpost .devpost-wrapper .info .date {float: none;padding-left: 84px;margin-top:-25px;}
+.devtracker-list .devpost .devpost-wrapper .info .date>* {display: inline;}
+.devtracker-list .devpost .devpost-wrapper .info .date::before, 
+.devtracker-list .devpost .devpost-wrapper .info .date::after {display: none;}
+.devtracker-list .devpost .devpost-wrapper .info .date .label {text-transform: none;color: #0891c5;}
+.devtracker-list .devpost .devpost-wrapper .info .date .label::after {content: '|';}
+.devtracker-list .devpost .devpost-wrapper .info img {width: 65px;height: 65px;border-radius: 50%;}
+.devtracker-list .devpost,
+.devtracker-list .devpost .devpost-wrapper{height: auto;}
+/* Devtracker end */
+
+/* Roadmap Release View */
+.hXHxeU {background-image: none;background-color: #05111d;}
+.gyhYfJ{filter: none;}
+.edIkVN{background-color: #151f2e;}
+.gUDugF,
+.layaUB,
+.gDRwwd,
+.jrGvGl{background: #182436;border:0;}
+.jmUWOw{border:0;}
+/* Roadmap Release View end */
 
 
 /*
@@ -675,6 +730,14 @@ button.vote.vertical,
     font-size: 1.3em;
 }
 
+#settings .inner-content .row>.shadow {padding:5px 0px!important;}
+#settings .inner-content .row .col.col-edit-wrapper>.view {line-height: 34px!important;}
+#settings .inner-content .row > .shadow > .inner label.sub-label,
+#settings .inner-content .row > .shadow > .inner .more-info{margin-top: -20px!important;}
+#settings .inner-content .row .edit {top: 4px!important;}
+#settings .inner-content .row > .shadow > .inner label {font-weight: normal;}
+#settings.profile #settings-twitch .twitch-legal-text {line-height: 20px!important;}
+
 #home #home-background,
 #community #home-background,
 #home #home-background .bg-home-stars,
@@ -688,6 +751,7 @@ h1.page-title{
     background: none;
     background-color: #05111d!important;
 }
+#cookiebanner {display: none!important;}
 #billing.pledges .list-items .title-col h3{color: #fff;}
 #billing.pledges .list-items .title-col h3,
 #billing .content .row.active .more .with-images .item .text .title{
@@ -701,6 +765,14 @@ h1.page-title{
 #devHub .devHub-section .devHub-navLink span,
 #devHub .devHub-section__header::after{
     background-color: #05111d;
+}
+.new-players-section .new-players-block__title {
+    font-size: 2.3em;
+}
+.flipboard-boxes .box .info .title {
+    font-size: 2em;
+    line-height: 1.1em;
+    font-weight: 900;
 }
 #devHub .devHub-section .devHub-navLink span::before {
     border-color: transparent #05111d #05111d transparent;
@@ -748,6 +820,15 @@ h1.page-title{
     color: #6AADD1;
     line-height: 1.3em;
 }
+#home .home-wrapper .live-stats,
+.glow-page-title.with-link.flipboard-latest-news-title.wrapper,
+.flipboard-boxes.flipboard-latest-news.wrapper,
+.flipboard-boxes.wrapper.flipboard-community-news,
+#home .home-wrapper .developer-tracker,
+#home .flipboard-news-wrapper .flipboard-boxes.flipboard-sku-content{
+    padding: 0 0px!important;
+}
+
 .glow-page-title .inner-title .title, .glow-page-title .inner-title .subtitle {
     left: 0px;
 }
@@ -813,21 +894,37 @@ h1.page-title{
 }
 #settings.referral-program .recruits-list-wrapper form#recruits-list-form a,
 #settings.referral-program .recruits-list-wrapper #users-list .user-row .user{font-size: .9em;}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row:first-child{padding-top:7px;}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row {padding: 7px 0 7px 15px;}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row:first-child::before,
+#settings.referral-program .recruits-list-wrapper #users-list .user-row::before{top: 7px;}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row:first-child,
+#settings.referral-program .recruits-list-wrapper #users-list .user-row {height: 75px;}
 #settings.referral-program .recruits-list-wrapper form#recruits-list-form a:first-child{margin: 0 10px 12px 0;}
 #settings.referral-program .recruits-list-wrapper form#recruits-list-form a:first-child::before {height: 24px;}
-#settings.referral-program .recruits-list-wrapper #users-list .user-row .status {top: 38%;}
 #settings.referral-program p {font-size: .85em;line-height: 2em;}
 #settings.referral-program .referral-rank-wrapper .reward img {height: auto;}
 /* REFERRAL PAGE end */
 
 /* NOTIFICATION */
 .l-notification-bar {
+    width: 15%;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+}
+@media only screen and (max-width: 1400px){
+.c-notification__inner {
+    padding: 0 40px 0 40px;
+}
+.l-notification-bar {
     width: 100%;
     position: absolute;
     left: 0;
-    top: 37px;
+    top: 0px;
 }
-@media only screen and (max-width: 1400px){
+}
+@media only screen and (max-width: 500px){
 .c-notification__inner {
     padding: 0 40px 0 40px;
 }
@@ -857,14 +954,13 @@ h1.page-title{
 }
 /* NOTIFICATION end */
 
-
 /* Extension: Star Citizen Hangar XPLORer */
 /* https://chrome.google.com/webstore/detail/star-citizen-hangar-xplor/bhkgemjdepodofcnmekdobmmbifemhkc */
 
 /* Design */
 /* Remove the code inside this comment if you want to have the original design */
     .js-bulk-ui,
-    .js-bulk-ui .inner{background: none;border: 0px;}
+    .js-bulk-ui .inner{border: 0px;}
     .content-block1>.corner.corner-top-right,
     .content-block1>.corner.corner-bottom-right{display: none;}
 /* Design end */
@@ -901,5 +997,3 @@ h1.page-title{
 .date-col.melt-col label::after{content: ":";}
 .date-col.melt-col label{margin-right: 5px;}
 /* Star Citizen Hangar XPLORer end */
-
-
