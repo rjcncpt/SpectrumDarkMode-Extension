@@ -1,0 +1,2 @@
+v5 c.1.0.5.3
+- Adjusted grid height which caused an error in the progress tracker
