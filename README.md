@@ -11,7 +11,7 @@ For new Star Citizen player: https://www.fwkart.de/star-citizen-kostenlos-spiele
 Download the zip file from the releases and unzip it to a folder on your hard drive. Open your Google Chrome browser and navigate to Extensions (chrome://extensions/). Click on "Load unzipped extension" navigate to the unzipped folder and select "Choose folder". Done!
 
 #### Firefox
-Download the zip file from the releases on your hard drive. Open your Firfox browser and navigate to Add-ons debug page (about:debugging#/runtime/this-firefox). Click on "Load temporary add-on" and load the ZIP file. That's it!
+Firefox support will come
 
 ---
 
