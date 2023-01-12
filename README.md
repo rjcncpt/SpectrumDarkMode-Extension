@@ -1,7 +1,7 @@
 # Better Dark Theme - Spectrum & RSI Website
 Better look for the Spectrum and RSI website. I've reworked the CSS code for the Star Citizen Spectrum and RSI website because I'm not happy with the original color scheme. I toned down the intrusive blue of the website. Avatars are round, fonts are more readable, I removed the yellow Staff font color and background graphics. In general, Spectrum is much tidier now. The gallery is completely new and now shows the images side by side instead of one below the other, which saves a lot of space.
 
-For new Star Citizen player: https://www.fwkart.de/star-citizen-kostenlos-testen-referral-code/
+For new Star Citizen player: https://www.fwkart.de/star-citizen-kostenlos-spielen-testen-free-fly/
 
 ---
 
