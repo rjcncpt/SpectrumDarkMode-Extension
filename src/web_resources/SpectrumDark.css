@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        v6 1.1.2
+@version        v6 1.1.3
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -668,54 +668,6 @@ button.vote.vertical,
 }
 
 
-/* Issue Council */
-.c-header {position: fixed;top: 35px;}
-/* Issue Council end */
-
-/* Pladge Store */
-.lobby-member-presences > .members-list .ReactVirtualized__Grid.ReactVirtualized__List{height: 1182px!important;}
-.RSIStoreTheme .AppModal .AppModal-content {height: auto;}
-/* Pladge Store end */
-
-/* Devtracker */
-.devtracker-list .devpost .devpost-wrapper .topic,
-.devtracker-list .devpost .devpost-wrapper .details{font: .8em/20px "Arial";color: #ddd;}
-.devtracker-list .devpost .devpost-wrapper .topic .thread{color: #95c1e1;}
-.devtracker-list .devpost .devpost-wrapper .topic .category {color: #95c1e1;font-weight: bold;}
-.devtracker-list .devpost .devpost-wrapper .info .poster{padding-top: 5px;}
-.devtracker-list .devpost .devpost-wrapper .topic .category::after {
-    content: '|';
-    padding-left: 9px;
-    padding-right: 5px;
-}
-.devtracker-list .devpost .devpost-wrapper .info .poster .nickname {
-    color: rgb(222, 195, 66);
-    font-size: 1em;
-    font-weight: bold;
-}
-.devtracker-list .devpost .devpost-wrapper .info .date {float: none;padding-left: 84px;margin-top:-25px;}
-.devtracker-list .devpost .devpost-wrapper .info .date>* {display: inline;}
-.devtracker-list .devpost .devpost-wrapper .info .date::before,
-.devtracker-list .devpost .devpost-wrapper .info .date::after {display: none;}
-.devtracker-list .devpost .devpost-wrapper .info .date .label {text-transform: none;color: #0891c5;}
-.devtracker-list .devpost .devpost-wrapper .info .date .label::after {content: '|';}
-.devtracker-list .devpost .devpost-wrapper .info img {width: 65px;height: 65px;border-radius: 50%;}
-.devtracker-list .devpost,
-.devtracker-list .devpost .devpost-wrapper{height: auto;}
-/* Devtracker end */
-
-/* Roadmap Release View */
-.hXHxeU {background-image: none;background-color: #05111d;}
-.gyhYfJ{filter: none;}
-.edIkVN{background-color: #151f2e;}
-.gUDugF,
-.layaUB,
-.gDRwwd,
-.jrGvGl{background: #182436;border:0;}
-.jmUWOw{border:0;}
-/* Roadmap Release View end */
-
-
 /*
 @name           RSI Domain
 @author         rjcncpt
@@ -882,29 +834,122 @@ h1.page-title{
     top: 105px;
 }
 
+/* Issue Council */
+.c-header {position: fixed;top: 35px;}
+/* Issue Council end */
+
+/* Pladge Store */
+.lobby-member-presences > .members-list .ReactVirtualized__Grid.ReactVirtualized__List{height: 1182px!important;}
+.RSIStoreTheme .AppModal .AppModal-content {height: auto;}
+/* Pladge Store end */
+
+/* Devtracker */
+.devtracker-list .devpost .devpost-wrapper .topic,
+.devtracker-list .devpost .devpost-wrapper .details{font: .8em/20px "Arial";color: #ddd;}
+.devtracker-list .devpost .devpost-wrapper .topic .thread{color: #95c1e1;}
+.devtracker-list .devpost .devpost-wrapper .topic .category {color: #95c1e1;font-weight: bold;}
+.devtracker-list .devpost .devpost-wrapper .info .poster{padding-top: 5px;}
+.devtracker-list .devpost .devpost-wrapper .topic .category::after {
+    content: '|';
+    padding-left: 9px;
+    padding-right: 5px;
+}
+.devtracker-list .devpost .devpost-wrapper .info .poster .nickname {
+    color: rgb(222, 195, 66);
+    font-size: 1em;
+    font-weight: bold;
+}
+.devtracker-list .devpost .devpost-wrapper .info .date {float: none;padding-left: 84px;margin-top:-25px;}
+.devtracker-list .devpost .devpost-wrapper .info .date>* {display: inline;}
+.devtracker-list .devpost .devpost-wrapper .info .date::before,
+.devtracker-list .devpost .devpost-wrapper .info .date::after {display: none;}
+.devtracker-list .devpost .devpost-wrapper .info .date .label {text-transform: none;color: #0891c5;}
+.devtracker-list .devpost .devpost-wrapper .info .date .label::after {content: '|';}
+.devtracker-list .devpost .devpost-wrapper .info img {width: 65px;height: 65px;border-radius: 50%;}
+.devtracker-list .devpost,
+.devtracker-list .devpost .devpost-wrapper{height: auto;}
+/* Devtracker end */
+
+/* Roadmap Release View */
+.hXHxeU {background-image: none;background-color: #05111d;}
+.gyhYfJ{filter: none;}
+.edIkVN{background-color: #151f2e;}
+.gUDugF,
+.layaUB,
+.gDRwwd,
+.jrGvGl{background: #182436;border:0;}
+.jmUWOw{border:0;}
+/* Roadmap Release View end */
+
 /* REFERRAL PAGE */
+/* Zoom 90% */
+#settings.referral-program .referral-rank-wrapper .reward,
+#settings.referral-program .referral-rank-wrapper .rank .badge,
+#settings.referral-program .referral-rank-wrapper .rank .progress .label {
+    zoom:90%;
+}
+/* Zoom 90% end */
 #settings.referral-program .block-head,
-#settings .inner-content p {
+#settings .inner-content p,
+.corner.corner-top-left,
+.corner.corner-top-right,
+.corner.corner-bottom-left,
+.corner.corner-bottom-right,
+#settings.referral-program .recruits-list-wrapper #users-list .user-row:before {
   display:none;
 }
-
+#settings.referral-program .referral-rank-wrapper,
+#settings.referral-program .recruits-list-wrapper{
+    padding: 0;
+    background: none;
+}
+#settings.referral-program .referral-rank-wrapper {
+    background-color: rgb(5 29 44)!important;
+    padding: 30px!important;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 #settings.referral-program .referral-rank-wrapper .rank .progress .label {
     padding: 0px 0 18px;
 }
 #settings.referral-program h4 {
-    margin: 14px 0 14px;
+    margin: 0 0 14px;
+    color: #bdced4;
 }
+
 #settings.referral-program .referral-rank-wrapper .reward h4 {
-    color: #4ee0ff;
+    color: #bdced4;
     font-size: 1em;
-    padding: 0 0 4px;
+    padding: 0 0 9px;
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+#settings.referral-program .referral-rank-wrapper .rank .badge {
+    background: rgba(0,200,255,.05);
+    border-radius: 50%;
+}
+#settings.referral-program .referral-rank-wrapper .rank .progress .ranking {
+    margin-top: -15px;
+    bottom: auto;
+}
 #settings.referral-program .referral-rank-wrapper .reward img {
     border-radius: 10px;
+}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar,
+#settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar img {
+    border-radius: 50%;
+}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar {
+    margin-right: 10px;
+    border: none;
+}
+#settings.referral-program .recruits-list-wrapper #users-list .user-row {
+    padding: 7px 0 7px 0px!important;
+}
+#settings.referral-program .referral-rank-wrapper .rank .progress .next-rank {
+    color: #bdced4;
 }
 #settings.referral-program .referral-rank-wrapper .reward .desc {
     color: #bdced4;
@@ -915,11 +960,6 @@ h1.page-title{
     -webkit-box-shadow:none;
     box-shadow:none;
     font-weight: 700;
-}
-#settings.referral-program .referral-rank-wrapper,
-#settings.referral-program .recruits-list-wrapper{
-    padding: 0;
-    background: none;
 }
 #settings.referral-program .recruits-list-wrapper form#recruits-list-form a,
 #settings.referral-program .recruits-list-wrapper #users-list .user-row .user{font-size: .9em;}
