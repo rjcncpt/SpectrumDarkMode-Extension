@@ -1,7 +1,7 @@
 /*
 @name           Spectrum - Better Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        v5 c.1.0.5.4
+@version        v6 1.1.0
 @description    Install the browser extension, click the stylus icon in your browser, click the Manage button, then click "Create New Style" and copy the code into the editor window.
                 Give the project a name (top left) and save the project. The Spectrum website should now look slightly different.
 @author         rjcncpt
@@ -407,7 +407,7 @@ button.vote.vertical,
 }
 
 .public-DraftEditor-content blockquote, blockquote {
-    margin: 10px 0 -10px 10px;
+    margin: 10px 0 10px 10px;
 }
 
 #app #app-header a.logo {
@@ -883,6 +883,17 @@ h1.page-title{
 }
 
 /* REFERRAL PAGE */
+#settings.referral-program .block-head,
+#settings .inner-content p {
+  display:none;
+}
+
+#settings.referral-program .referral-rank-wrapper .rank .progress .label {
+    padding: 0px 0 18px;
+}
+#settings.referral-program h4 {
+    padding: 11px 0;
+}
 #settings.referral-program form#share-referral-form input{
     -moz-box-shadow:none;
     -webkit-box-shadow:none;
