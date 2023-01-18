@@ -1,14 +1,14 @@
 {
   "description": "This extension changes the appearance of the Spectrum website. You must have Dark Mode enabled. It also makes changes to some RSI web pages.",
   "manifest_version": 2,
-  "name": "Star Citizen - Better Spectrum Dark Mode",
+  "name": "Star Citizen - Better Spectrum Dark Theme",
   "short_name": "SpectrumDark",
-  "version": "1.0.5.1",
-  
+  "version": "1.0",
+
   "author": "/u/rjcncpt (Rene Jansen)",
-  
+
   "permissions": [ "https://robertsspaceindustries.com/*", "storage" ],
-  
+
   "icons": {
     "128": "icons/icon_128.png"
   },
@@ -19,12 +19,13 @@
     },
     "default_popup": "ui_resources/SpectrumDark.Settings.html"
   },
-  "content_scripts": [{
+  "content_scripts": [
+    {
     "matches": ["https://robertsspaceindustries.com/*", "https://www.robertsspaceindustries.com/*"],
-    "js": ["content_scripts/loader.js"],
-    "run_at": "document_end"
-  }],
-	
+    "js": ["content_scripts/loader.js"]
+    }
+],
+
   "web_accessible_resources": [
     "web_resources/shims.chrome.storage.js",
     "web_resources/SpectrumDark.js",
