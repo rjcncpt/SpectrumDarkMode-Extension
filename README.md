@@ -5,6 +5,12 @@ For new Star Citizen player: https://www.fwkart.de/star-citizen-kostenlos-spiele
 
 ---
 
+### Download
+
+https://github.com/rjcncpt/SpectrumDarkMode-Chrome-Extension/releases/
+
+---
+
 ### Installation
 
 #### Google Chrome
