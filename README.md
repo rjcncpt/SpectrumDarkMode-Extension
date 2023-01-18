@@ -79,6 +79,15 @@ I have removed the background graphics for a clean look
 
 
 
+### Cleaner RSI referral page
+
+I have removed not so right elements and also adapted the look here a bit to the Spectrum Forum
+![image](https://i.imgur.com/Cn2WiyO.png)
+
+![image](https://i.imgur.com/VctCG4n.png)
+
+
+
 ### Cleaner My Hangar Page
 
 ![image](https://user-images.githubusercontent.com/3922642/177154338-5a5f8f6d-b50b-4821-8f6f-79c0db012326.png)
