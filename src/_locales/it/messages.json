@@ -1,1 +1,8 @@
-
+{
+   "description": {
+      "message": "Questa estensione modifica l'aspetto di Spectrum e di alcuni siti web RSI. È necessario attivare la modalità scura."
+   },
+   "name": {
+      "message": "Star Citizen - Tema scuro a spettro migliore"
+   }
+}
