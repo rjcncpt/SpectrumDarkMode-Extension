@@ -1,1 +1,8 @@
-
+{
+   "description": {
+      "message": "This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled."
+   },
+   "name": {
+      "message": "Star Citizen - Better Spectrum Dark Theme"
+   }
+}
