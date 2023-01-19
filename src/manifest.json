@@ -1,18 +1,14 @@
 {
-  "description": "This extension changes the appearance of the Spectrum website. You must have Dark Mode enabled. It also makes changes to some RSI web pages.",
-  "manifest_version": 2,
   "name": "Star Citizen - Better Spectrum Dark Theme",
   "short_name": "SpectrumDark",
-  "version": "1.0",
-
-  "author": "/u/rjcncpt (Rene Jansen)",
-
-  "permissions": [ "https://robertsspaceindustries.com/*", "storage" ],
-
+  "description": "This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.",
+  "version": "1.1.4",
+  "author": "Rene Jansen",
   "icons": {
     "128": "icons/icon_128.png"
   },
-  "browser_action": {
+  "manifest_version": 3,
+  "action": {
     "default_icon": {
       "48": "icons/icon_48-fill.png",
       "128": "icons/icon_128-fill.png"
@@ -21,15 +17,26 @@
   },
   "content_scripts": [
     {
-    "matches": ["https://robertsspaceindustries.com/*", "https://www.robertsspaceindustries.com/*"],
-    "js": ["content_scripts/loader.js"]
+      "matches": [
+        "https://robertsspaceindustries.com/*", "https://www.robertsspaceindustries.com/*"
+      ],
+      "js": [
+        "content_scripts/loader.js"
+      ],
+      "run_at": "document_end"
     }
-],
-
+  ],
   "web_accessible_resources": [
-    "web_resources/shims.chrome.storage.js",
-    "web_resources/SpectrumDark.js",
-    "web_resources/SpectrumDark.css",
-    "debug/*.html"
+    {
+      "matches": [
+        "https://robertsspaceindustries.com/*", "https://www.robertsspaceindustries.com/*"
+      ],
+      "resources": [
+        "web_resources/SpectrumDark.css",
+        "web_resources/fuse.js",
+        "web_resources/shims.chrome.storage.js",
+        "debug/*.html"
+      ]
+    }
   ]
 }
