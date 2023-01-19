@@ -1,1 +1,8 @@
-
+{
+   "description": {
+      "message": "Diese Erweiterung verändert das Aussehen des Spectrum und einigen RSI-Webseiten. Du müsst den dunklen Modus aktivieren."
+   },
+   "name": {
+      "message": "Star Citizen - Besseres Spectrum Dark Theme"
+   }
+}
