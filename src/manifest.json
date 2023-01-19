@@ -1,8 +1,9 @@
 {
-  "name": "Star Citizen - Better Spectrum Dark Theme",
+  "name": "__MSG_name__",
+  "description": "__MSG_description__",
+  "default_locale": "en_US",
   "short_name": "SpectrumDark",
-  "description": "This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Rene Jansen",
   "icons": {
     "128": "icons/icon_128.png"
