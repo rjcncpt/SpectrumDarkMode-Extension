@@ -3,7 +3,7 @@
   "description": "__MSG_description__",
   "default_locale": "en_US",
   "short_name": "SpectrumDark",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Rene Jansen",
   "icons": {
     "128": "icons/icon_128.png"
@@ -34,7 +34,10 @@
       ],
       "resources": [
         "web_resources/SpectrumDark.css",
-        "web_resources/fuse.js",
+        //"web_resources/fullwidth.css",
+        "web_resources/HangarXPLORer.css",
+        "web_resources/newgallery.css",
+        "web_resources/fuse-min.js",
         "web_resources/shims.chrome.storage.js",
         "debug/*.html"
       ]
