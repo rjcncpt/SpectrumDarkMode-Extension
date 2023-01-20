@@ -4,7 +4,10 @@
   var namespace = 'SpectrumDark';
 
   var styles = [
-    'web_resources/SpectrumDark.css'
+    'web_resources/SpectrumDark.css',
+    'web_resources/fullwidth.css',
+    'web_resources/newgallery.css',
+    'web_resources/HangarXPLORer.css'
   ];
 
   var scripts = [
