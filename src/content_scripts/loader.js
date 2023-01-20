@@ -11,7 +11,7 @@
   ];
 
   var scripts = [
-    'web_resources/fuse.js'
+    'web_resources/fuse-min.js'
   ];
 
   var templates = [ ];
