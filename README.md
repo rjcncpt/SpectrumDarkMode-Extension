@@ -23,8 +23,16 @@ Firefox support will come
 
 ---
 
-### Discussions and feedback:
+### Discussions and feedback
 https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
+
+---
+
+### Copyright & License
+Copyright (c) René Jansen
+
+This application is made available under the MIT License.<br/>
+Please see the [LICENSE](https://github.com/rjcncpt/SpectrumDarkMode-Extension/blob/release/LICENSE) file for further details.
 
 ---
 ## Screenshots - Before and After
