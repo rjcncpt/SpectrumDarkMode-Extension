@@ -7,7 +7,9 @@ For new Star Citizen player: https://www.fwkart.de/star-citizen-free-play-test-f
 
 ### Download
 
-https://github.com/rjcncpt/SpectrumDarkMode-Chrome-Extension/releases/
+Github releases: https://github.com/rjcncpt/SpectrumDarkMode-Chrome-Extension/releases/
+
+Chrome web store: https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj
 
 ---
 
