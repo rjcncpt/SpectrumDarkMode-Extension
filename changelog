@@ -1,5 +1,15 @@
+v6 1.1.6
+- Preparations for options in the extension popup. Not yet functional!
+- CSS files added
+  - fullwidth.css (disabled by default)
+  - newgallery.css (enabled by default)
+  - HangarXPLORer.css (enabled by default)
+
+v6 1.1.5
+- Extension added to Google Store (https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj)
+
 v6 1.1.4
-- Extension updated from Manifest 2 to 3
+- Manifest 3 ready
 - A few more visual adjustments on the referral page
 
 v6 1.1.2
