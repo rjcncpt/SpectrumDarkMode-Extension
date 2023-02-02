@@ -1,9 +1,21 @@
+###########################################################################################
+# name          Star Citizen - Better Spectrum Dark Theme				                          #
+# namespace     https://github.com/rjcncpt/SpectrumDarkMode				                         #
+# description   This extension changes the appearance of Spectrum and some RSI web pages. #
+#		            You must have the dark mode enabled.					                            #
+# author        rjcncpt									                                                  #
+###########################################################################################
+
+CHANGELOG
+
+1.1.7
 1.1.6
 - Preparations for options in the extension popup. Not yet functional!
 - CSS files added
   - fullwidth.css (disabled by default)
   - newgallery.css (enabled by default)
   - HangarXPLORer.css (enabled by default)
+- A few additional visual adjustments
 
 1.1.5
 - Extension added to Google Store (https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj)
