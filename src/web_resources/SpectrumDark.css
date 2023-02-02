@@ -1,7 +1,7 @@
 /*
 @name           Star Citizen - Better Spectrum Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        1.1.6
+@version        1.1.7
 @description    This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.
 @author         rjcncpt
 @license        CC0-1.0 License
@@ -23,6 +23,11 @@
 /* Change page width for better readability at large monitor resolution end */
 
 /* Custom CSS */
+::selection {
+    background: #8cf1ff;
+    color: #05111e;
+}
+
 /* Backgrounds */
 body{
     background: none;
@@ -137,9 +142,11 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 
 .theme-dark button.vote.active,
 .theme-dark .action-button--outline,
-.theme-dark .forum-thread-item button.vote,
 .theme-dark #sidebar .member-presence-menu-popout .popout-item:not(:last-child){
     border-color: rgb(42 69 106);
+}
+.theme-dark .forum-thread-item button.vote{
+    border-color: rgb(21 36 56);
 }
 
 .theme-dark .reaction,
@@ -597,6 +604,7 @@ button.vote.vertical,
 .forum-thread-item > .gutter .gutter-highlight-label{
     left: 100px;
     padding: 5px 10px 5px 20px;
+    top: -4px;
 }
 .forum-thread-item.style-type-large.is-highlighted > .content > .content-main > .content-header > .left{
     margin-top: 40px;
