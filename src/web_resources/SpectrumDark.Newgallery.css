@@ -1,0 +1,30 @@
+/* Better Gallery */
+.content-block.image,
+.content-block.video{
+    display: inline-flex;
+}
+
+/* Responsive yt video */
+.media-embed-wrapper .media-embed-code {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.media-embed-wrapper .media-embed-code iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.content-block.image.gallery .content-block-media{
+    height: 128px;
+}
+.gifv video {
+    height: 128px;
+    width: auto;
+}
+/* Responsive yt video end */
+/* Better Gallery end */

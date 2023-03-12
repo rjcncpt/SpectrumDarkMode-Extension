@@ -1,0 +1,5 @@
+/* Change page width for better readability at large monitor resolution */
+.theme-dark#app{
+    width: 100%!important;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
+}
+/* Change page width for better readability at large monitor resolution end */

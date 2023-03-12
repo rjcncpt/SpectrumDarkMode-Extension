@@ -1,7 +1,7 @@
 /*
 @name           Star Citizen - Better Spectrum Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        1.1.7
+@version        1.2.0
 @description    This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.
 @author         rjcncpt
 @license        CC0-1.0 License
@@ -29,7 +29,7 @@
 }
 
 /* Backgrounds */
-body{
+#app, #react{
     background: none;
     background-color: #05111d;
 }
@@ -587,6 +587,7 @@ button.vote.vertical,
 #page.forum-thread .page-content .forum-thread .forum-thread-header .thread-control-bar{
     padding: 12px 12px 12px 13px;
 }
+
 .forum-thread-item > .gutter .gutter-sc-logo .icon{
     width: 272px;
     height: 250px;
@@ -832,12 +833,12 @@ h1.page-title{
 #billing.pledges .content .row .arrow {top: 105px;}
 
 /* Issue Council */
-.c-header {position: fixed;top: 35px;}
+.c-header {top: 35px;}
 /* Issue Council end */
 
 /* Pladge Store */
+.RSIStoreTheme .Cart{padding-bottom: 1px;}
 .lobby-member-presences > .members-list .ReactVirtualized__Grid.ReactVirtualized__List{height: 1182px!important;}
-.RSIStoreTheme .AppModal .AppModal-content {height: auto;}
 /* Pladge Store end */
 
 /* Devtracker */
