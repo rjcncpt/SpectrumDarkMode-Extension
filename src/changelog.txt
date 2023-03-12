@@ -8,6 +8,16 @@
 
 CHANGELOG
 
+1.2.0
+- Added new website: https://developertracker.com/star-citizen/
+  I customized the Dark Theme and adapted the colors to the Spectrum.
+
+1.1.9
+- CSS corrections for the shopping cart on the RSI website
+
+1.1.8
+- CSS code changes for HangarXPLOR Extension. I minimized the UI interface on the hangar page to save space.
+
 1.1.7
 1.1.6
 - Preparations for options in the extension popup. Not yet functional!
