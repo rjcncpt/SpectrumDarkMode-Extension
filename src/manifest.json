@@ -4,7 +4,7 @@
   "description":      "__MSG_description__",
   "default_locale":   "de",
   "short_name":       "SpectrumDark",
-  "version":          "1.2.0",
+  "version":          "1.2.0.2",
   "author":           "Rene Jansen",
 
   "icons": {
