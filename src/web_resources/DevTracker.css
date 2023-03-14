@@ -1,22 +1,17 @@
 /*
 @name           DevTracker - Better Spectrum Dark Theme
-@version        1.0.0
+@version        1.0.0.2
 @description
 @author         rjcncpt
 @license        CC0-1.0 License
 */
 
-form{
-    width: 300px;
-    float: right;
-}
 .groups-wrapper,
 .services-wrapper{
     text-align: left;
     width: auto;
 }
 h1, .h1, h2, .h2, h3, .h3 {
-    margin-top: 63px;
     text-align: left;
 }
 
