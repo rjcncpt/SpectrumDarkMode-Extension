@@ -1,7 +1,7 @@
 /*
 @name           Star Citizen - Better Spectrum Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        1.2.0.2
+@version        1.2.0.9
 @description    This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.
 @author         rjcncpt
 @license        CC0-1.0 License
@@ -9,7 +9,7 @@
 
 /* Change page width for better readability at large monitor resolution */
 .theme-dark#app{
-    width: 75%;     /* Recommended: 65% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
+    width: 75%;     /* Recommended: 75% *//* Change the percentage value for monitors with a resolution over 1920 pixels. Default is 100% */
 }
 @media only screen and (max-width: 1800px){
 .theme-dark#app{
@@ -119,14 +119,18 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark .content-block:not(.text),
 .theme-dark .c-sidebar-list-body:after,
 .theme-dark #page-main .community-info,
+.theme-dark .forum-thread-item button.vote,
 .theme-dark .public-DraftEditor-content pre,
 .theme-dark .emoji-mart .emoji-mart-search input,
 .theme-dark .list-navigator .widgets button.action,
 .theme-dark #page.forum-channel .row.columns-header,
 .theme-dark #page.forum-channel .row:not(:last-child),
 .theme-dark #page #page-main .page-header .page-header-inner,
+.theme-dark .forum-thread-item.style-type-small:not(.depth-0),
 #app.theme-dark #app-content #page.lobby #page-main .lobby-header,
 .theme-dark .list-navigator .widgets .navigation .left-triangle:before,
+.theme-dark .member-avatar .avatar-badges .avatar-badge:not(:last-child),
+.theme-dark #page #page-main .page-header .page-header-inner .actions .action,
 .theme-dark .forum-thread-item > .content .content-footer > .actions > .group,
 .theme-dark #app-content > #page.community > #page-main .community-list ul .community-item,
 .theme-dark #app-content > #page.community > #page-main .community-list.community-list-lobbies .community-item:first-child,
@@ -144,9 +148,6 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark .action-button--outline,
 .theme-dark #sidebar .member-presence-menu-popout .popout-item:not(:last-child){
     border-color: rgb(42 69 106);
-}
-.theme-dark .forum-thread-item button.vote{
-    border-color: rgb(21 36 56);
 }
 
 .theme-dark .reaction,
@@ -287,6 +288,7 @@ button.vote.vertical,
 }
 .forum-thread-item>.content .content-header>.right .actions{
     top: 0;
+	height: 40px;
 }
 .action-button, .action-button--size-s {
     height: 25px;
@@ -349,7 +351,30 @@ button.vote.vertical,
 }
 /* status end */
 
+/* Error Message */
+.probation-wrapper .error-message.probation {
+	position:fixed;
+	font-size:.8em;
+	max-width:430px;
+	bottom: 1%;
+    left: 1%;
+}
+.error-message {
+    background: url(https://cdn.robertsspaceindustries.com/static/images/signin_modal_error.png) no-repeat 7px 50% rgb(153 0 0)
+    color: #fff;
+}
+.error-message strong {
+    color: white;
+}
+.probation-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+.page-wrapper .wrapper .error-message.probation{display:none!important;}
+/* Error Message end */
+
 /* avatars */
+.avatar img,
 .member-avatar .avatar,
 .theme-dark .member-avatar .avatar,
 .forum-thread-item > .gutter .member-avatar .avatar,
@@ -361,7 +386,6 @@ button.vote.vertical,
 .theme-dark .member-avatar .avatar{
     width: 56px;
     height: 56px;
-    margin-top: -5px;
 }
 .theme-dark .member-avatar .avatar-badges{
     margin-top: 10px;
@@ -395,6 +419,10 @@ button.vote.vertical,
 .message-item>.content>.bottom .body{
 	font-size: 1em;
     line-height: 1.5em;
+}
+
+.content-block.text h1, .public-DraftEditor-content h1 {
+    margin-top: 25px;
 }
 
 .public-DraftEditor-content blockquote, blockquote {
@@ -839,6 +867,9 @@ h1.page-title{
 /* Pladge Store */
 .RSIStoreTheme .Cart{padding-bottom: 1px;}
 .lobby-member-presences > .members-list .ReactVirtualized__Grid.ReactVirtualized__List{height: 1182px!important;}
+.RSIStoreTheme .c-price-tag-content{
+    color: #fff;
+}
 /* Pladge Store end */
 
 /* Devtracker */
@@ -870,13 +901,16 @@ h1.page-title{
 
 /* Roadmap Release View */
 .hXHxeU{background-image: none;background-color: #05111d;}
-.gyhYfJ{filter: none;}
+.gyhYfJ,
+.iqyNJj{filter: none;--media-filter: none;}
 .edIkVN{background-color: #151f2e;}
 .gUDugF,
 .layaUB,
 .gDRwwd,
 .jrGvGl{background: #182436;border:0;}
 .jmUWOw{border:0;}
+.iuhXsP{padding-left: 10px;}
+.iLbqJB{border-right: 5px solid rgb(75 166 222);}
 /* Roadmap Release View end */
 
 /* REFERRAL PAGE */
@@ -1016,3 +1050,7 @@ h1.page-title{
     color: #d2f0ff;
 }
 /* NOTIFICATION end */
+
+/*
+[class*=Release__Wrapper-sc]{}
+*/
