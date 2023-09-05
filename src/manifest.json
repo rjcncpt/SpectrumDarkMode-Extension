@@ -1,54 +1,42 @@
 {
-  "manifest_version": 3,
-  "name":             "__MSG_name__",
-  "description":      "__MSG_description__",
-  "default_locale":   "de",
-  "short_name":       "SpectrumDark",
-  "version":          "1.2.0.2",
-  "author":           "Rene Jansen",
+	"manifest_version": 3,
+	"name":             "__MSG_name__",
+	"description":      "__MSG_description__",
+	"default_locale":   "de",
+	"short_name":       "SpectrumDark",
+	"version":          "1.2.0.9",
+	"author":           "Rene Jansen",
 
-  "icons": {
-    "48": "icons/icon_48-fill.png",
-    "128": "icons/icon_128-fill.png"
-  },
-
-  "action": {
-    "default_icon": {
-      "48": "icons/icon_48-fill.png",
-      "128": "icons/icon_128-fill.png"
+	"action": {
+		"default_icon": {
+         "128": "icons/icon_128-fill.png",
+         "48": "icons/icon_48-fill.png"
     },
     "default_popup": "ui_resources/SpectrumDark.Settings.html"
-  },
-
-  "content_scripts": [
-    {
-      "matches": [
-        "https://robertsspaceindustries.com/*", "https://www.robertsspaceindustries.com/*", "https://developertracker.com/*", "https://www.developertracker.com/*"
-      ],
-      "js": [
-        "content_scripts/loader.js"
-      ],
-      "run_at": "document_end"
-    }
-  ],
-
-  "web_accessible_resources": [
-    {
-      "matches": [
-        "https://robertsspaceindustries.com/*", "https://www.robertsspaceindustries.com/*", "https://developertracker.com/*", "https://www.developertracker.com/*"
-      ],
-      "resources": [
-        "web_resources/SpectrumDark.css",
-        "web_resources/SpectrumDark.fullwidth.BAK",
-        "web_resources/SpectrumDark.HangarXPLOR.css",
-        "web_resources/SpectrumDark.Newgallery.css",
-        "web_resources/fuse-min.js",
-        "web_resources/shims.chrome.storage.js",
-        "web_resources/DevTracker.css",
-        "debug/*.html"
-      ]
-    }
-  ],
-
-  "update_url": "https://clients2.google.com/service/update2/crx"
+	},
+   
+	"content_scripts": [{
+		"js": [ "content_scripts/loader.js" ],
+		"matches": [ "https://robertsspaceindustries.com/*", "https://developertracker.com/*" ],
+		"run_at": "document_end"
+	}],
+   
+   "icons": {
+		"128": "icons/icon_128-fill.png",
+		"48": "icons/icon_48-fill.png"
+   },
+   
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   
+   "web_accessible_resources": [{
+		"matches": [ "https://robertsspaceindustries.com/*", "https://developertracker.com/*" ],
+		"resources": [ 
+			"web_resources/SpectrumDark.css", 
+			"web_resources/SpectrumDark.HangarXPLOR.css", 
+			"web_resources/SpectrumDark.Newgallery.css", 
+			"web_resources/DevTracker.css", 
+			"web_resources/fuse-min.js", 
+			"web_resources/shims.chrome.storage.js", 
+			"debug/*.html" ]
+   }]
 }

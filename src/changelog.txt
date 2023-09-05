@@ -7,6 +7,30 @@
 ###########################################################################################
 
 CHANGELOG
+1.2.0.9
+- CSS: Bug fixing
+
+1.2.0.8
+- CSS: Changes to the error message
+
+1.2.0.7
+- H1 headings in Spectrum now have a top spacing of 25px instead of 6px.
+
+1.2.0.6
+- CSS: Avatars are displayed round again
+
+1.2.0.5
+- Gallery: Youtube videos are displayed smaller again.
+
+1.2.0.4
+- CSS corrections. Grayfilter from the Release View images set to 0 
+
+1.2.0.3
+- Gallery: Youtube videos are now no longer displayed as a small video, but stretch across the entire width.
+
+1.2.0.2
+1.2.0.1
+- Bug fixing
 
 1.2.0
 - Added new website: https://developertracker.com/star-citizen/
