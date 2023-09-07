@@ -1,7 +1,7 @@
 /*
 @name           Star Citizen - Better Spectrum Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        1.2.0.9
+@version        1.3.0.0
 @description    This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.
 @author         rjcncpt
 @license        CC0-1.0 License
@@ -448,8 +448,26 @@ button.vote.vertical,
     background: transparent;
     align-self: center;
 }
+#page.forum-channel .row .column.subject .subject-media-preview{
+	width: 90px;
+    height: auto;
+}
+#page.forum-channel .row .column.subject .subject-media-preview img{
+	border-radius: 5px;
+}
+#page.forum-channel .row .column.subject .subject-media-preview .subject-media-preview-overlay{
+	top: 15px;
+    left: 30px;
+	margin-left: 0;
+    margin-top: 0;
+}
 .theme-dark #page.forum-channel .row .column.subject .new-replies-link {
-    border-color: #22324a;
+    border-color: #101824;
+	font-size: .8rem;
+}
+#page.forum-channel .row .column.subject .new-replies-link .icon {
+    width: 15px;
+    height: 15px;
 }
 #page.forum-channel .row .column.subject .subject-media-preview .default-preview{
     display: none;
@@ -481,14 +499,20 @@ button.vote.vertical,
 .theme-dark .c-sidebar-header{
     padding: 10px 0 10px 0;
 }
-#app.theme-dark #app-content #page.lobby #page-main .lobby-header .lobby-name{
-    padding-top: 7px;
-}
 #app #app-content #page.lobby #page-main .lobby-header-messages{
     padding: 0 25px 10px;
 }
 #app #app-content #page.lobby #page-main .messages-list .message-item{
     padding-top: 13px;
+}
+#app #app-content #page.lobby #page-main .messages-list .message-item.highlighted{
+	background: #1a2535;
+	border-left: 3px solid #dec33c;
+}
+.theme-dark .c-sidebar-navigation-item--active, .theme-dark .c-sidebar-navigation-item--selected,
+.theme-dark .c-sidebar-navigation-item,
+.c-sidebar-navigation-item-avatar{
+	border-radius: 50%;
 }
 
 .theme-dark .message-item > .content > .top .member-name span.displayname,
@@ -536,6 +560,21 @@ button.vote.vertical,
     height: 20px;
     border-radius: 50px;
 }
+	.tracked-posts-btn,
+	#app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .avatar img{
+	  animation: pulse-animation 2s infinite;
+	}
+
+	@keyframes pulse-animation {
+	  0% {
+		box-shadow: 0 0 0 0px rgba(222, 195, 66, .2);
+	  }
+	  100% {
+		box-shadow: 0 0 0 20px rgba(222, 195, 66, 0);
+	  }
+	}
+
+
 #page.forum-channel .row .column.tracked-posts img{
     display: none;
 }
@@ -544,6 +583,20 @@ button.vote.vertical,
 }
 #page.forum-channel .channel-header .info .info-header .current-label .bookmark{
     margin-top: 6px;
+}
+#app-content>#page.community>#page-main .community-list ul .community-item .top .default-link>.name .bookmark{
+	width: 17px;
+    height: 18px;
+}
+button.bookmark>svg>use {
+    stroke-width: 3px;
+}
+#app-content>#page.community>#page-main .community-list ul li.group h3{
+	border-radius: 5px;
+    margin-left: 10px;
+}
+#app-content>#page.community>#page-main .community-list h3{
+	padding: 11px 25px 11px 25px;
 }
 
 .theme-dark .forum-label{
