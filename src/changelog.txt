@@ -7,6 +7,12 @@
 ###########################################################################################
 
 CHANGELOG
+1.3.0.0
+- CSS: Added pulse animation to the yellow staff button in the forum
+- CSS: Added pulse animation and highlights in chats for CIG posts
+- CSS: Some small changes and corrections
+- Changed the text of the manifest language files.
+
 1.2.0.9
 - CSS: Bug fixing
 
