@@ -1,7 +1,7 @@
 /*
 @name           Star Citizen - Better Spectrum Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        1.3.0.2
+@version        1.3.0.3
 @description    This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.
 @author         rjcncpt
 @license        CC0-1.0 License
@@ -107,6 +107,7 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark .content-block:not(.text){
     background-color:rgba(11, 17, 26, .5);
 }
+.theme-dark #page.forum-channel .row:hover{background: #151f2f;}
 /* backgrounds end */
 
 /* borders */
@@ -259,9 +260,17 @@ div.button-group-selector button,
     border-color:#4c80b7;
     background-color:#152438;
 }
+#app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .reaction{
+    border-color:#4c80b7;
+    background-color:#0a1525;
+}
 .theme-dark .reaction.active{
     border-color:#4c80b7;
-    background-color:#243249;
+    background-color:#2a456a;
+}
+#app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .reaction.active{
+    border-color:#4c80b7;
+    background-color:#223c63;
 }
 .theme-dark button.vote .count{
     font-weight:600;
@@ -329,16 +338,12 @@ button.vote.vertical,
 .theme-dark .member-presence.online use,
 #sidebar .member-presence-menu-button.online{
     fill:#39c98f;
+	color:#39c98f;
 }
 .c-sidebar-header__avatar--paying,
 .theme-dark .member-presence.playing use,
 #sidebar .member-presence-menu-button.paying{
     fill:#bc97e9;
-}
-.c-sidebar-header__avatar--away,
-.theme-dark .member-presence.away use,
-#sidebar .member-presence-menu-button.away{
-    fill:#eaa41a;
 }
 .theme-dark .member-presence.offline use,
 .c-sidebar-header__avatar--do_not_disturb,
@@ -354,6 +359,10 @@ button.vote.vertical,
     color:#bc97e9;
     margin-top:-3px;
 }
+.theme-dark .thread-flag{text-indent: -9000em;}
+.theme-dark .thread-flag.pinned.thread-flag-label {padding-right: 2px;}
+.theme-dark .thread-flag.thread-flag-label .icon use {fill: #d6dee3;}
+.theme-dark .thread-flag.thread-flag-label {background-color: #243249;color: #d6dee3;}
 /* status end */
 
 /* Error Message */
@@ -470,6 +479,19 @@ button.vote.vertical,
     border-color:#101824;
 	font-size:.8rem;
 }
+a.thread-subject[style],
+span.displayname[style],
+.sidebar-list .sidebar-item.unread .column.content a,
+.c-sidebar-header__avatar--away,
+.theme-dark .member-presence.away use,
+#sidebar .member-presence-menu-button.away,
+.theme-dark .sidebar-list .sidebar-item>.column.notification>.count, .theme-dark .sidebar-list .sidebar-item>.column.notification>.unread-flag{
+	color:rgb(239 191 96)!important;
+	fill:rgb(239 191 96)!important;
+}
+.tracked-posts-btn[style]{
+	border-color:rgb(239 191 96)!important;
+}
 #page.forum-channel .row .column.subject .new-replies-link .icon {
     width:15px;
     height:15px;
@@ -512,7 +534,7 @@ button.vote.vertical,
 }
 #app #app-content #page.lobby #page-main .messages-list .message-item.highlighted{
 	background:#1a2535;
-	border-left:3px solid #dec33c;
+	border-left:3px solid #efbf60;
 	padding: 30px 25px 30px 25px;
 }
 #app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .theme-dark .reaction{
