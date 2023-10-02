@@ -7,6 +7,10 @@
 ###########################################################################################
 
 CHANGELOG
+1.3.0.5
+- Hangar page: Added a colon after "Base Pladge"
+
+1.3.0.4
 1.3.0.3
 - Spectrum: Unread favorites are highlighted in yellow
 - I shortened the "Pinned" flag and removed the text. Only the pin is displayed now 
