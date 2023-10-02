@@ -226,6 +226,10 @@ h1.page-title{
 	padding-top: 0px;
 	width:90%;
 }
+#billing.pledges .items-col.pledge-col label:after{
+	content:": ";
+	margin-right:5px;
+	}
 #billing.pledges .content .row .arrow {top:105px;}
 .js-inventory .js-selected{
 	background: rgb(179 212 250 / 8%) !important;
