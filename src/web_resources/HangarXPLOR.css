@@ -50,4 +50,9 @@ font-family: inherit;
 .js-bulk-ui.count .count .label-short{margin-right: 10px;}
 .date-col.melt-col label::after{content: ":";}
 .date-col.melt-col label{margin-right: 5px;}
-/* Star Citizen Hangar XPLORer end */
+
+#billing.pledges .items-col.pledge-col label:after,
+.date-col.melt-col label::after{
+	content:": ";
+	margin-right:5px;
+	}
