@@ -64,6 +64,7 @@ h1.page-title{
     background-color:#05111d!important;
 }
 #cookiebanner {display:none!important;}
+#billing.pledges .items h2{margin-top:10px;}
 #billing.pledges .list-items .title-col h3{color:#fff;}
 #billing.pledges .list-items .title-col h3,
 #billing .content .row.active .more .with-images .item .text .title{
