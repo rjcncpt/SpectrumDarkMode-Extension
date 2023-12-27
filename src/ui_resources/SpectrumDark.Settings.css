@@ -1,11 +1,23 @@
-body {
+body,
+body.info{
   background-color: #05111d;
   padding: 20px;
   color: #ececec;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-  width: 400px;
+  width: 500px;
   font-size: 1em;
   border: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px;
+}
+
+body.info{
+  width: 50%;
+  margin:0 auto;
 }
 a{
   color: #8ed9fe;
@@ -15,7 +27,7 @@ a:hover{
 }
 h1{
   margin: 0 0 10px 0;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.2em;
   font-weight: 300;
 }
@@ -24,7 +36,7 @@ h2{
   font-size: 1.3em;
 }
 h3,h4{
-  margin: 50px 0 10px 0;
+  margin:0px 0 10px 0;
   font-size: 1.1em;
   font-weight: 500;
 }
@@ -54,28 +66,44 @@ button{
 button:hover{
   background-color: #16c9d9;
 }
-ul.social,
-ul.nav{
-  margin: 0 0 40px -40px;
+ul.social{
+  margin:0 0 20px -17px;
   display: flex;
 }
+ul.nav{
+  margin:0 0 40px -40px;
+  display: flex;
+  gap: 10px;
+}
+ul.nav li a{
+	background-color: #243249;
+    padding: 8px 15px 9px 15px;
+    height: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.info-content {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #2e3a50;
+  margin-bottom:50px;
+}
+
+.info-content > * {
+  flex: 1;
+  margin: 10px;
+}
 ul.stuff{
-  margin: -20px 0 0 -40px;
+  margin:-20px 0 0 -15px;
 }
 li{
   list-style: none;
-  margin-right: 20px;
 }
 .logo_container{
-  display: flex;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   margin: 0px 0px 50px 0px;
 }
 img.logo{
   border-radius: 50%;
-  margin: 0px 30px 0px 0px;
 }
 ::-webkit-scrollbar-thumb {
   background: #597398;
