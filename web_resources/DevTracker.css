@@ -1,0 +1,43 @@
+/*
+@name           DevTracker - Better Spectrum Dark Theme
+@version        1.0.0.2
+@description
+@author         rjcncpt
+@license        CC0-1.0 License
+*/
+
+.groups-wrapper,
+.services-wrapper{
+    text-align: left;
+    width: auto;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    text-align: left;
+}
+body.theme-dark{
+    background-color: #05111d;
+}
+body.theme-dark .panel,
+body.theme-dark .panel > .panel-footer{
+    background-color: #101824;
+}
+body.theme-dark .panel > .panel-heading,
+body.theme-dark blockquote{
+    background-color: #1a273a;
+}
+body.theme-dark blockquote {
+    opacity: 1;
+    margin: 10px 0 20px 10px;
+    padding: 15px 15px;
+}
+body.theme-dark blockquote div{margin: 0 0 10px;}
+body.theme-dark .panel-body {
+    padding: 15px;
+}
+body.theme-dark .panel-body img {
+    max-width: 100%;
+    margin: 20px 0 10px;
+}
+body.theme-dark .panel-footer {
+    padding: 10px 15px;
+}
