@@ -25,11 +25,6 @@ Firefox support will come
 
 ---
 
-### Discussions and feedback
-https://robertsspaceindustries.com/spectrum/community/SC/forum/50172/thread/better-look-and-feel-of-the-spectrum-website
-
----
-
 ### Copyright & License
 Copyright (c) René Jansen
 
