@@ -568,6 +568,10 @@ span.displayname[style],
 	border-left:3px solid #efbf60;
 	padding: 30px 25px 30px 25px;
 }
+#app #app-content #page.lobby #page-main .messages-list .message-item.type-small,
+#app #app-content #page.lobby #page-main .messages-list .message-item.type-small.highlighted{
+	padding: 0px 25px 30px 25px;
+}
 #app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .theme-dark .reaction{
 	background-color: #0d151e;
 }
