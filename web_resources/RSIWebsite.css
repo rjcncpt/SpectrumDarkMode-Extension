@@ -259,6 +259,9 @@ h1.page-title{
 .RSIStoreTheme .c-price-tag-content{
     color:#fff;
 }
+.ReactVirtualized__Grid.ReactVirtualized__List{height: 62vh!important;}
+.RSIStoreTheme .ShipUpgrade .ShipUpgrade-selectors,
+.RSIStoreTheme .ShipUpgrade{padding-bottom:0px!important;}
 /* Pladge Store end */
 
 /* Devtracker */
