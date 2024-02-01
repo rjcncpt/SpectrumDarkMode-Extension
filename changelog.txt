@@ -1,0 +1,112 @@
+###########################################################################################
+# name          Star Citizen - Better Spectrum Dark Theme				  #
+# namespace     https://github.com/rjcncpt/SpectrumDarkMode				  #
+# description   This extension changes the appearance of Spectrum and some RSI web pages. #
+#		You must have the dark mode enabled.					  #
+# author        rjcncpt									  #
+###########################################################################################
+
+CHANGELOG
+1.3.1.5
+Ship upgrade page:
+- Small CSS improvements
+
+1.3.1.4
+Ship upgrade page:
+- Expand ship upgrade list
+- Set padding-bottom to 0px
+
+1.3.1.3
+- Spectrum: padding top 0px for item.type-small
+
+1.3.1.1
+- CSS: Some changes and corrections
+- Notification bar detached from the header and fixed at the bottom edge
+
+1.3.0.5
+- Hangar page: Added a colon after "Base Pladge"
+
+1.3.0.4
+1.3.0.3
+- Spectrum: Unread favorites are highlighted in yellow
+- I shortened the "Pinned" flag and removed the text. Only the pin is displayed now 
+- CSS: Some changes and corrections
+
+1.3.0.2
+- Spectrum: Fullscreen (100%) changed to 1850px
+- CSS: Some changes and corrections
+
+1.3.0.1
+- Added CSS changes for Subscripters page
+
+1.3.0.0
+- CSS: Added pulse animation to the yellow staff button in the forum
+- CSS: Added pulse animation and highlights in chats for CIG posts
+- CSS: Some small changes and corrections
+- Changed the text of the manifest language files.
+
+1.2.0.9
+- CSS: Bug fixing
+
+1.2.0.8
+- CSS: Changes to the error message
+
+1.2.0.7
+- H1 headings in Spectrum now have a top spacing of 25px instead of 6px.
+
+1.2.0.6
+- CSS: Avatars are displayed round again
+
+1.2.0.5
+- Gallery: Youtube videos are displayed smaller again.
+
+1.2.0.4
+- CSS corrections. Grayfilter from the Release View images set to 0 
+
+1.2.0.3
+- Gallery: Youtube videos are now no longer displayed as a small video, but stretch across the entire width.
+
+1.2.0.2
+1.2.0.1
+- Bug fixing
+
+1.2.0
+- Added new website: https://developertracker.com/star-citizen/
+  I customized the Dark Theme and adapted the colors to the Spectrum.
+
+1.1.9
+- CSS corrections for the shopping cart on the RSI website
+
+1.1.8
+- CSS code changes for HangarXPLOR Extension. I minimized the UI interface on the hangar page to save space.
+
+1.1.7
+1.1.6
+- Preparations for options in the extension popup. Not yet functional!
+- CSS files added
+  - fullwidth.css (disabled by default)
+  - newgallery.css (enabled by default)
+  - HangarXPLORer.css (enabled by default)
+- A few additional visual adjustments
+
+1.1.5
+- Extension added to Google Store (https://chrome.google.com/webstore/detail/star-citizen-better-spect/omcmgcldeclkpakdccipdajcfddhcdkj)
+
+1.1.4
+- Manifest 3 ready
+- A few more visual adjustments on the referral page
+
+1.1.2
+- A few additional visual adjustments on the referral page
+
+1.1.1
+- Removed text elements from the referral page that are not important. This moves the Recruits List a bit more to the top
+
+1.1.0
+- Some bugfixes and CSS corrections
+
+1.0.5.4
+- A few CSS corrections
+
+1.0.5.3
+- Adjusted grid height which caused an error in the progress tracker

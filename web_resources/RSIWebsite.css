@@ -262,6 +262,9 @@ h1.page-title{
 .ReactVirtualized__Grid.ReactVirtualized__List{height: 62vh!important;}
 .RSIStoreTheme .ShipUpgrade .ShipUpgrade-selectors,
 .RSIStoreTheme .ShipUpgrade{padding-bottom:0px!important;}
+.RSIStoreTheme div.ShipItem.small .ShipItem-general-information-clip{margin-left: -10px;}
+h3.ShipItem-title span.ShipItem-general-information-name-prefix,
+h3.ShipItem-title br{display: none;}
 /* Pladge Store end */
 
 /* Devtracker */
