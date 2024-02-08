@@ -1,6 +1,6 @@
 /*
 @name           DevTracker - Better Spectrum Dark Theme
-@version        1.0.0.2
+@version        1.0.0.3
 @description
 @author         rjcncpt
 @license        CC0-1.0 License
@@ -11,9 +11,17 @@
     text-align: left;
     width: auto;
 }
-h1, .h1, h2, .h2, h3, .h3 {
-    text-align: left;
+.glow-hub-title h1,
+.glow-hub-title h1 a,
+.glow-hub-title h2,
+.glow-hub-title .glow-hub-section,
+.glow-hub-title .glow-hub-section a{
+    text-shadow: none;
 }
+#community .devtracker-list h3 {
+    padding: 40px 0px 12px;
+}
+.glow-hub-title{padding: 0 0px;}
 body.theme-dark{
     background-color: #05111d;
 }

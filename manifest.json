@@ -4,7 +4,7 @@
 	"description":      "__MSG_description__",
 	"default_locale":   "de",
 	"short_name":       "SpectrumDark",
-	"version":          "1.3.1.5",
+	"version":          "1.3.1.6",
 	"author":           "Rene Jansen",
 
 	"action": 
