@@ -35,6 +35,14 @@ Please see the [LICENSE](https://github.com/rjcncpt/SpectrumDarkMode-Extension/b
 ## Screenshots - Before and After
 Top old / Bottom new
 
+### Search page
+
+![image](https://i.imgur.com/iqr5uEU.png)
+
+![image](https://i.imgur.com/2CBNvxF.png)
+
+
+
 ### Spectrum Buttons & reactions
 
 ![image](https://user-images.githubusercontent.com/3922642/177153047-3fc3c62e-f74e-42c8-9827-10e5dc821d02.png)
