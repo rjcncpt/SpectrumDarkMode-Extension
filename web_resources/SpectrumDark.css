@@ -43,15 +43,16 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 
 .theme-dark .modal,
 .theme-dark #page #page-main,
+.theme-dark .search-result-content,
+.theme-dark .search-panel .advanced-search,
 .theme-dark .forum-thread-item.is-editor-reply,
 .theme-dark .member-profile .profile-below-banner,
 .theme-dark #page.forum-channel .row.thread:not(.unread),
+.theme-dark #app-content #page.search #page-main .search-results,
 #app.theme-dark #app-content #page.lobby #page-main .messages-list,
 .theme-dark #app-content > #page.community > #page-main .community-list,
 .lobby-member-presences > .members-list .members-list-group .members-list-group-header,
-.theme-dark #notifications .notifications-main .notifications-list .notifications-item:hover,
-.theme-dark .search-result-content,
-.theme-dark #app-content #page.search #page-main .search-results{
+.theme-dark #notifications .notifications-main .notifications-list .notifications-item:hover{
     background:#101824!important;
 }
 
@@ -64,11 +65,13 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark .emoji-mart .emoji-mart-preview,
 .theme-dark .emoji-mart .emoji-mart-search input,
 .theme-dark .forum-thread-item-tracked-reference,
+.theme-dark .search-panel .quick-access-header-input input,
 #app.theme-dark #app-content #page.lobby .lobby-footer > .top,
 #app.theme-dark #app-content #page.lobby #page-main .lobby-header,
 #app.theme-dark #app-content #page.lobby .lobby-footer > .message-input,
 .theme-dark .list-navigator .widgets .navigation .navigation-content,
 .theme-dark .list-navigator .widgets .navigation .left-triangle:before,
+#app.theme-dark #app-content .quick-access .lobby-member-presences .search,
 .theme-dark .emoji-mart .emoji-mart-scroll .emoji-mart-category .emoji-mart-category-label *,
 .theme-dark .member-profile .profile-topbar, .theme-dark .member-profile .profile-topbar button.close{
     background-color:#0b111a;
@@ -94,7 +97,6 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark .message-media-rich, .theme-dark .message-media figure,
 .theme-dark #page.settings #page-main .settings-main .settings-sidebar,
 .theme-dark #app-content > #page.community > #page-main .community-list h3,
-#app.theme-dark #app-content .quick-access .lobby-member-presences .search,
 .theme-dark .list-navigator .widgets .navigation .navigation-progress:before,
 .theme-dark #app-content #page.settings #page-main .settings-main .settings-content .section,
 .theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-header .thread-control-bar,
@@ -701,7 +703,12 @@ button.bookmark>svg>use {
     --lobby-message-border-color:#0b111a;
 }
 .lobby-message__wrapper{padding:10px 14px;}
-.lobby-message__dismiss{min-height:66px;}
+.lobby-message__dismiss{
+	min-height:66px;
+    align-items: flex-start;
+	top: 8px;
+}
+	}
 .lobby-message__dismiss svg:hover{fill:#e90c0c;}
 #app #app-content #page.lobby #page-main .lobby-header:not(.more-info-open) .lobby-header-messages{
     width:40%;

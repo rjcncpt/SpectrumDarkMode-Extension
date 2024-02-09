@@ -7,6 +7,10 @@
 ###########################################################################################
 
 CHANGELOG
+1.3.1.7
+- Fix: Background colours for search forms
+- FIx: Position of dismiss button
+
 1.3.1.6
 - Headings alignment corrected
 - Removed shadow around headings on the DevTracker page
