@@ -1,7 +1,7 @@
 /*
 @name           Star Citizen - Better Spectrum Dark Theme
 @namespace      https://github.com/rjcncpt/SpectrumDarkMode
-@version        1.3.1.5
+@version        1.3.1.8
 @description    This extension changes the appearance of Spectrum and some RSI web pages. You must have the dark mode enabled.
 @author         rjcncpt
 @license        CC0-1.0 License
@@ -39,6 +39,9 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark#app #app-header,
 .theme-dark #page #page-main .page-header .page-header-inner .actions .action.on{
     background:#335a8f;
+}
+.message-item>.content>.bottom .body a {
+    color: #6bb2db;
 }
 
 .theme-dark .modal,
@@ -160,9 +163,11 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark .member-avatar .avatar,
 .theme-dark .forum-thread-item .action,
 .theme-dark .member-avatar .avatar-badges,
+.search-result-content .result-author .avatar,
 .theme-dark .forum-thread-item-tracked-reference,
 .theme-dark .content-block.image .content-block-media,
 .theme-dark #page-main .community-info .community-avatar,
+.theme-dark .item-selector-member .member-avatar .avatar,
 .theme-dark .forum-thread-item .forum-actions-button > .btn,
 .theme-dark .sidebar-list .sidebar-item > .column.avatar > a,
 .theme-dark #page.forum-channel .row .column.subject .subject-media-preview,
@@ -320,9 +325,31 @@ button.vote.vertical,
 .action-button__icon+.action-button__label {
     display:none;
 }
+/* SEARCH RESULTS */
+.search-result-content {
+    border: 1px solid #c3cfdd;
+    border-top: 0;
+    border-left: 0;
+}
+.search-result-content:hover{background: #161f2d!important;}
+.theme-dark #search-results .results-list{
+	background: #182436;
+    border-color: #405171;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
 .search-result-content .jump{
     padding:8px 8px;
 }
+.theme-dark .search-result-content .result-body{
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* SEARCH RESULTS */
 #sidebar .member-presence-menu-popout .popout-item {
     padding:10px;
 }
@@ -401,7 +428,13 @@ button.vote.vertical,
 .forum-thread-item > .gutter .member-avatar .avatar,
 .theme-dark #page-main .community-info .community-avatar,
 .theme-dark .sidebar-list .sidebar-item>.column.avatar>a,
-#notifications .notifications-main .notifications-list .notifications-item .item-avatar{
+.search-result-content .result-author .avatar,
+#notifications .notifications-main .notifications-list .notifications-item .item-avatar,
+#app-content #page.search #page-main .search-sidebar .sidebar-communities .community-button .avatar,
+.theme-dark .c-sidebar-navigation-item--active, .theme-dark .c-sidebar-navigation-item--selected,
+.theme-dark .c-sidebar-navigation-item,
+.c-sidebar-navigation-item-avatar,
+#page.forum-channel .row .column.tracked-posts .tracked-posts-btn{
     border-radius:50%;
 }
 .theme-dark .member-avatar .avatar{
@@ -580,11 +613,6 @@ span.displayname[style],
 #app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .theme-dark .reaction.active{
 	background-color: #2a4167;
 }
-.theme-dark .c-sidebar-navigation-item--active, .theme-dark .c-sidebar-navigation-item--selected,
-.theme-dark .c-sidebar-navigation-item,
-.c-sidebar-navigation-item-avatar{
-	border-radius:50%;
-}
 
 .theme-dark .message-item > .content > .top .member-name span.displayname,
 .message-item>.content>.top .member-name span.displayname{
@@ -629,7 +657,6 @@ span.displayname[style],
 #page.forum-channel .row .column.tracked-posts .tracked-posts-btn{
     border:2px solid;
     height:20px;
-    border-radius:50px;
 }
 	.tracked-posts-btn,
 	#app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .avatar img{
