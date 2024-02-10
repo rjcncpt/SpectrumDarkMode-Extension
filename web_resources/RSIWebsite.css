@@ -265,34 +265,12 @@ h1.page-title{
 .RSIStoreTheme div.ShipItem.small .ShipItem-general-information-clip{margin-left: -10px;}
 h3.ShipItem-title span.ShipItem-general-information-name-prefix,
 h3.ShipItem-title br{display: none;}
+.RSIStoreTheme .DisclaimerModal .DisclaimerModalContent__wrapper {
+    max-height: fit-content;
+    background: #21282d;
+    padding: 25px 25px 0px 32px;
+}
 /* Pladge Store end */
-
-/* Devtracker */
-.devtracker-list .devpost .devpost-wrapper .topic,
-.devtracker-list .devpost .devpost-wrapper .details{font:.8em/20px "Arial";color:#ddd;}
-.devtracker-list .devpost .devpost-wrapper .topic .thread{color:#95c1e1;}
-.devtracker-list .devpost .devpost-wrapper .topic .category {color:#95c1e1;font-weight:bold;}
-.devtracker-list .devpost .devpost-wrapper .info .poster{padding-top:5px;}
-.devtracker-list .devpost .devpost-wrapper .topic .category::after {
-    content:'|';
-    padding-left:9px;
-    padding-right:5px;
-}
-.devtracker-list .devpost .devpost-wrapper .info .poster .nickname {
-    color:rgb(239 191 96);
-    font-size:1em;
-    font-weight:bold;
-}
-.devtracker-list .devpost .devpost-wrapper .info .date {float:none;padding-left:84px;margin-top:-25px;}
-.devtracker-list .devpost .devpost-wrapper .info .date>* {display:inline;}
-.devtracker-list .devpost .devpost-wrapper .info .date::before,
-.devtracker-list .devpost .devpost-wrapper .info .date::after {display:none;}
-.devtracker-list .devpost .devpost-wrapper .info .date .label {text-transform:none;color:#0891c5;}
-.devtracker-list .devpost .devpost-wrapper .info .date .label::after {content:'|';}
-.devtracker-list .devpost .devpost-wrapper .info img {width:65px;height:65px;border-radius:50%;}
-.devtracker-list .devpost,
-.devtracker-list .devpost .devpost-wrapper{height:auto;}
-/* Devtracker end */
 
 /* Roadmap Release View */
 .hXHxeU{background-image:none;background-color:#05111d;}
