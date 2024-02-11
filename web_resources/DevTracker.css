@@ -52,7 +52,7 @@ body.theme-dark .panel-body img {
 body.theme-dark .panel-footer {
     padding: 10px 15px;
 }
-
+.devtracker-list .devpost{margin-bottom: 30px;}
 .devtracker-list .devpost .devpost-wrapper .topic,
 .devtracker-list .devpost .devpost-wrapper .details{font:.8em/20px "Arial";color:#ddd;}
 .devtracker-list .devpost .devpost-wrapper .topic .thread{color:#95c1e1;}
