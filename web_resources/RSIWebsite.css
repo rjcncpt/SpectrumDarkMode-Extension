@@ -224,7 +224,7 @@ h1.page-title{
     padding:25px 34px 25px 35px;
 }
 .c-platform .l-container--navigation {padding:0;}
-.content-block1 {padding:49px 30px 66px 30px;}
+.content-block1 {padding:49px 30px 66px 30px;border: 0px;}
 #billing .content .row,
 #billing .content .row.dark{margin:0 0 15px 0px;background:rgba(12,27,43,0.5);}
 #billing .content .row.active .more{background:none;}
@@ -327,6 +327,11 @@ h3.ShipItem-title br{display: none;}
 .corner.corner-bottom-left,
 .corner.corner-bottom-right,
 #settings.referral-program .recruits-list-wrapper #users-list .user-row:before {display:none;}
+#settings.referral-program #users-list{
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 #settings.referral-program .referral-rank-wrapper,
 #settings.referral-program .recruits-list-wrapper{
     padding:0;

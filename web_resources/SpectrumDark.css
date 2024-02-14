@@ -348,8 +348,9 @@ button.vote.vertical,
     border-color: #405171;
     -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
 }
 .search-result-content .jump{
     padding:8px 8px;
