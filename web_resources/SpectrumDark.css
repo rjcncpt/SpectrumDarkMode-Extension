@@ -218,7 +218,9 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .theme-dark .search-result-content .result-body,
 .theme-dark .c-sidebar-header-name,
 .member-selector .item-selector-member .member-name .nickname,
-.theme-dark .c-sidebar-header__content-user-alias{
+.theme-dark .c-sidebar-header__content-user-alias,
+.rsi-markup .segment .content p,
+.rsi-markup .segment .content ul li{
     color:#dddddd;
 }
 /* Colors end */
@@ -273,6 +275,16 @@ div.button-group-selector button,
 #app #app-content #page.lobby #page-main .messages-list .message-item.highlighted .reaction{
     border-color:#4c80b7;
     background-color:#0a1525;
+}
+.theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-replies .forum-thread-item.is-highlighted-staff{
+    border-left: 5px solid #efbf60;
+    padding: 30px 25px 30px 25px;
+}
+.theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-replies .forum-thread-item.is-highlighted-staff .content-block.text{
+    color: #efbf60!important;
+}
+.theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-replies .forum-thread-item.is-highlighted-staff .forum-thread-item-children-replies .content-block.text{
+    color: #dee5f6!important;
 }
 .theme-dark .reaction.active{
     border-color:#4c80b7;
@@ -393,7 +405,8 @@ button.vote.vertical,
     margin-top:-3px;
 }
 .theme-dark .thread-flag{text-indent: -9000em;}
-.theme-dark .thread-flag.pinned.thread-flag-label {padding-right: 2px;}
+.theme-dark .thread-flag.pinned.thread-flag-label{padding-right: 2px;}
+#page.forum-channel .row .column.subject .subject-content .thread-subject{display: contents;}
 .theme-dark .thread-flag.thread-flag-label .icon use {fill: #d6dee3;}
 .theme-dark .thread-flag.thread-flag-label {background-color: #243249;color: #d6dee3;}
 /* status end */
@@ -851,6 +864,12 @@ button.bookmark>svg>use {
         width:98%;
     }
 }
+
+/* */
+.wrapper .rsi-markup{background:none;}
+.wrapper .content-block1 {padding:0px;}
+.wrapper .rsi-markup .segment .content p {max-width: fit-content;width: fit-content;}
+.wrapper .rsi-markup .segment .content ul {padding: 0 0 5% 5%;}
 
 /*
 [class*=Release__Wrapper-sc]{}

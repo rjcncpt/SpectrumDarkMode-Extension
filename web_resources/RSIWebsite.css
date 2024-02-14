@@ -25,7 +25,8 @@
 
 /* Border-Radius 10px */
 #subscribers .album,
-#billing .content .row.dark,
+#billing .content .row,
+#billing .content .row.dark
 #referral .leaderboard-table,
 #subscribers .album .inner img,
 #settings.referral-program .referral-rank-wrapper,
@@ -50,6 +51,8 @@
 #settings.referral-program h4,
 #settings.referral-program .referral-rank-wrapper .rank .progress .label{
     font-size:1.3em;
+	padding:0px 0 18px;
+    padding-bottom: 10px!important;
 }
 #settings .success-message {
     line-height: 1.2em;
@@ -96,7 +99,8 @@ h1.page-title{
     background-color:#05111d!important;
 }
 #cookiebanner {display:none!important;}
-#billing.pledges .items h2{margin-top:10px;}
+#billing.pledges .items h2{margin-bottom: 0px;}
+#billing.pledges .list-items .item-image-wrapper.executed{background: rgb(0 0 0 / 0%);}
 #billing.pledges .list-items .title-col h3{color:#fff;}
 #billing.pledges .list-items .title-col h3,
 #billing .content .row.active .more .with-images .item .text .title{
@@ -237,7 +241,13 @@ h1.page-title{
 #billing .content .row.active .more .also-contains{margin-top:90px;margin-left:-18px;}
 #billing .content .row.active .more .without-images .item{margin-left:-22px;}
 #billing .content .row.active .more .without-images .item .title {font-weight:normal;}
-#billing .content .row.executed{background:#0d293a;}
+#billing .content .row.executed{
+	background:#0d293a;
+	background-size: 20%;
+    background-image: url(https://i.imgur.com/phRL2D4.png);
+    background-position: calc(100% - 20px) 20px;
+    background-repeat: no-repeat;
+	}
 .without-images{margin-bottom:-30px!important;}
 #billing .content .row .more table.billing-summary td {font-size:1.3em;}
 #billing .content .payment-wrapper>.right-section .s-row {font-size:.9em;}
@@ -250,7 +260,6 @@ h1.page-title{
 	}
 #billing.pledges .items-col label{
 	display:inline-block;
-	font-size:.9em;
 	}
 #billing.pledges .date-col label{
 	display:inline-block;
@@ -260,6 +269,7 @@ h1.page-title{
 #billing.pledges .items-col{
 	padding-top: 0px;
 	width:90%;
+	font-size: 1.2em;
 }
 #billing.pledges .content .row .arrow {top:105px;}
 .js-inventory .js-selected{
@@ -323,7 +333,7 @@ h3.ShipItem-title br{display: none;}
     background:none;
 }
 #settings.referral-program .referral-rank-wrapper {
-    background-color:rgba(12,27,43,0.5)!important;
+    background-color: rgb(12 27 43)!important;;
     padding:20px 0px 30px!important;
     margin-top:20px;
 	display: flex;
@@ -335,7 +345,7 @@ h3.ShipItem-title br{display: none;}
     margin-top:5%;
     margin-left:10px;
 }
-#settings.referral-program .referral-rank-wrapper .rank .progress .label {padding:0px 0 18px;}
+#settings.referral-program .referral-rank-wrapper .rank .progress .bar .percent span{box-shadow: none;}
 #settings.referral-program h4 {
     margin:0 0 14px;
     color:#bdced4;
