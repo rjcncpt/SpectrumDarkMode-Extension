@@ -191,7 +191,8 @@ body::-webkit-scrollbar-thumb{background:#597398!important;border-radius:50px;}
 .message-item>.content>.bottom .body pre{
     font-size:.9em;
 }
-.member-profile .profile-quick-msg textarea{
+.member-profile .profile-quick-msg textarea,
+#page.forum-channel .row .column.last-activity>.member .member-name{
     font-size:.8em;
 }
 /* font-size end */
@@ -279,12 +280,6 @@ div.button-group-selector button,
 .theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-replies .forum-thread-item.is-highlighted-staff{
     border-left: 5px solid #efbf60;
     padding: 30px 25px 30px 25px;
-}
-.theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-replies .forum-thread-item.is-highlighted-staff .content-block.text{
-    color: #efbf60!important;
-}
-.theme-dark #page.forum-thread .page-content .forum-thread .forum-thread-replies .forum-thread-item.is-highlighted-staff .forum-thread-item-children-replies .content-block.text{
-    color: #dee5f6!important;
 }
 .theme-dark .reaction.active{
     border-color:#4c80b7;
@@ -828,6 +823,8 @@ button.bookmark>svg>use {
     margin-top:20px;
 }
 
+.theme-dark #page.forum-channel .row.columns-header{height: 40px;}
+#page.forum-channel .row .column.label{text-align: center;}
 .theme-dark #page.forum-channel .row.columns-header .column .btn.refresh{
     animation:2s linear 0s infinite normal forwards;
     -webkit-animation:blink-animation 2s linear 0s infinite normal forwards;
