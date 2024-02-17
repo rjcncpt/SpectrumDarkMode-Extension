@@ -66,11 +66,8 @@ button{
 button:hover{
   background-color: #16c9d9;
 }
+ul.nav,
 ul.social{
-  margin:0 0 20px -17px;
-  display: flex;
-}
-ul.nav{
   margin:0 0 40px -40px;
   display: flex;
   gap: 10px;
@@ -100,7 +97,7 @@ li{
   list-style: none;
 }
 .logo_container{
-  margin: 0px 0px 50px 0px;
+  margin: 0px 0px 20px 0px;
 }
 img.logo{
   border-radius: 50%;
