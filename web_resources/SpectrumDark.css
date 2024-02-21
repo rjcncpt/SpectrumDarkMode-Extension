@@ -729,11 +729,16 @@ button.bookmark>svg>use {
     animation-timing-function:ease-in;
     animation-duration:.2s;
 }
-.lobby-message{
+.lobby-message.lobby-message--broadcast,
+.lobby-message.lobby-message--visible.lobby-message--motd{
     overflow:inherit;
     border-radius:5px;
     margin-left:-15px;
     margin-right:-12px;
+    --lobby-message-background-color: #6b5800;
+    --lobby-message-border-color: #cfb435;
+}
+.lobby-message.lobby-message--visible.lobby-message--motd{
     --lobby-message-background-color:#0b111a;
     --lobby-message-border-color:#0b111a;
 }

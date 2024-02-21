@@ -7,6 +7,9 @@
 ###########################################################################################
 
 CHANGELOG
+1.3.2.4
+- Background colour for MOTD announcement to yellow
+
 1.3.2.3
 - Staff text colors fix
 
