@@ -224,7 +224,8 @@ h1.page-title{
     padding:25px 34px 25px 35px;
 }
 .c-platform .l-container--navigation {padding:0;}
-.content-block1 {padding:49px 30px 66px 30px;border: 0px;}
+.wrapper .content-block1{padding: 49px 0px 66px 0px;}
+.content-block1 {border: 0px;}
 #billing .content .row,
 #billing .content .row.dark{margin:0 0 15px 0px;background:rgba(12,27,43,0.5);}
 #billing .content .row.active .more{background:none;}
@@ -300,17 +301,29 @@ h3.ShipItem-title br{display: none;}
 /* Pladge Store end */
 
 /* Roadmap Release View */
+.gtqzZI{line-height: inherit;}
+.enkTcq{padding: 5px 80px 0px 0px;}
+.cEDkBB svg{rotate: 270deg;}
+.iBUFAA{padding: 1px 10px;}
+.dDNykc{background-color:rgb(95 111 119);}
+.guFEco{background: rgb(21 31 46);}
+.eoMxzt{background-color: rgb(6 33 51);}
 .hXHxeU{background-image:none;background-color:#05111d;}
-.gyhYfJ,
-.iqyNJj{filter:none;--media-filter:none;}
+.gyhYfJ{margin: auto;border-radius: 10px;width: 90%;}
+.gyhYfJ, .iqyNJj{filter:none;--media-filter:none;}
 .edIkVN{background-color:#151f2e;}
+.edIkVN,
+.eoMxzt{width:380px;}
 .gUDugF,
 .layaUB,
 .gDRwwd,
-.jrGvGl{background:#182436;border:0;}
-.jmUWOw{border:0;}
+.jrGvGl,
+.eoMxzt .layaUB{background-color:rgb(32 45 65);border:0;}
+.jmUWOw, .cBVlkA{border:0;background-color: rgb(15 65 99);}
 .iuhXsP{padding-left:10px;}
 .iLbqJB{border-right:5px solid rgb(75 166 222);}
+.gdkTeu{background: rgb(24 28 30);color: rgb(214 229 235);}
+.feUlHA, .fvCukO{margin-top: -4px;}
 /* Roadmap Release View end */
 
 /* REFERRAL PAGE */
