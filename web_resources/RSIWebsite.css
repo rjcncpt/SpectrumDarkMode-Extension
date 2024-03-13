@@ -40,6 +40,16 @@
 }
 /* Border-Radius 10px */
 
+/* border-radius 50% */
+.account-profile .overview-content .thumb img,
+#settings.referral-program .referral-rank-wrapper .rank .badge,
+#settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar,
+#settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar img,
+#referral .leaderboard-table .leaderboard-row .leaderboard-avatar img{
+	border-radius:50%;
+}
+/* border-radius 50% */
+
 .sidenav li a {
     font-size: 14px;
     color: #00aeff;
@@ -179,9 +189,6 @@ h1.page-title{
 .account-profile .deco-corner {
     background: none;
 }
-.account-profile .overview-content .thumb img{
-	border-radius: 50%;
-}
 .c-brand-menu----rsi .c-brand-menu__link,
 #home .home-wrapper .live-stats #squadronStats .nav-item, #home .home-wrapper .live-stats #starcitizenStats .nav-item{
     font-weight:666;
@@ -239,7 +246,8 @@ h1.page-title{
 #billing .content .row.active .more .with-images .item .text .liner,
 #billing .content .row.active .more .with-images .item .text .liner span{color:#bdced4;}
 #billing .content .row.active .more .with-images .item .image{width:216px;height:133px;margin:22px 0px 22px 25px;}
-#billing .content .row.active .more .also-contains{margin-top:90px;margin-left:-18px;}
+#billing .content .row.active .more .also-contains{margin-top:90px;}
+#billing .content .row.active .more .without-images{margin-left: 10px;}
 #billing .content .row.active .more .without-images .item{margin-left:-22px;}
 #billing .content .row.active .more .without-images .item .title {font-weight:normal;}
 #billing .content .row.executed{
@@ -378,17 +386,12 @@ h3.ShipItem-title br{display: none;}
     overflow:hidden;
     text-overflow:ellipsis;
 }
-#settings.referral-program .referral-rank-wrapper .rank .badge {
+#settings.referral-program .referral-rank-wrapper .rank .badge{
     background:rgba(0,200,255,.05);
-    border-radius:50%;
 }
 #settings.referral-program .referral-rank-wrapper .rank .progress .ranking {
     margin-top:-15px;
     bottom:auto;
-}
-#settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar,
-#settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar img {
-    border-radius:50%;
 }
 #settings.referral-program .recruits-list-wrapper #users-list .user-row .avatar {
     margin-right:10px;
@@ -458,7 +461,6 @@ h3.ShipItem-title br{display: none;}
 }
 #referral .leaderboard-table .leaderboard-row .leaderboard-rank {padding-top: 0px;}
 #referral .leaderboard-table .leaderboard-row .leaderboard-cell:not(:last-child) {border-right: 0px solid #06314b;}
-#referral .leaderboard-table .leaderboard-row .leaderboard-avatar img {border-radius: 50%;}
 #referral .leaderboard-table .leaderboard-row .leaderboard-name .name-displayname {font-weight: 800;}
 #referral .leaderboard-table .leaderboard-row .leaderboard-name .name-displayname{font-size: 1em;}
 #referral .leaderboard-table .leaderboard-row .leaderboard-name .name-nickname,

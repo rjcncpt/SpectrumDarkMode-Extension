@@ -338,7 +338,7 @@ button.vote.vertical,
     border-left: 0;
 }
 .search-result-content:hover{background: #161f2d!important;}
-.theme-dark #search-results .results-list{
+.page-search-results #search-results .results-list{
 	background: #182436;
     border-color: #405171;
     -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
